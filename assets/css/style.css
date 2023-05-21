@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(62, 97, 85);
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+
+.calculator {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    align-content: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.calculator-face {
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator-screen {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 260px;
+    height: 60px;
+    justify-content: center;
+    align-content: center;
+}
+
+.screen {
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-style: none;
+    font-size: 25px;
+}
+
+.calculator-buttons {
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    display: grid;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 10px;
+}
+
+.equal {
+    background-color: rgb(110, 197, 75);
+    text-align: center;
+    font-size: 18px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.btn {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: dimgrey;
+    text-align: center;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.delete {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(201, 22, 22);
+    text-align: center;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.clear {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-color: rgb(255, 200, 20);
+    text-align: center;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
